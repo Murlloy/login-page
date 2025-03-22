@@ -1,0 +1,112 @@
+body {
+    background-image: url(BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #2148C0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    font-family: "Oxanium", sans-serif;
+}
+
+#mandar {
+    width: 355px;
+    height: 45px;
+    color: #2148C0;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-top: 43px;
+    background-color: white;
+    border: #2148C0 1px solid;
+    transition: 0.5s all ease;
+    border: none;
+    cursor: pointer;
+}
+
+#mandar:hover {
+    transform: scale(1.05) translateX(0px) rotate(0.5deg);
+    background-color: #3e6eff;
+    color: white;
+}
+
+a {
+    text-align: end;
+    width: 355px;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s all ease;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #4a77ff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 4px;
+    transition: 0.4s all ease;
+
+    & input {
+        background-color: transparent;
+        border: none;
+        padding-left: 30px;
+        width: 300px;
+        height: 50px;
+        color: white;
+        font-size: 16px;
+    }
+
+}
+
+#carrinho {
+    margin-bottom: 31px;
+}
+
+.form {
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 25px;
+    }
+}
+
+.form input::placeholder {
+    color: white;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: transparent;
+    outline: none;
+    transition: 0.5s all ease;
+}
+
+.form:hover {
+    border: #7e99f2 1px solid;
+}
+
+#mini {
+    position: absolute;
+    left: 2%;
+    bottom: 2%;
+    transition: 0.5s ease all;
+}
+
+#mini:hover {
+    transform: scale(1.07) rotate(-5deg) translateY(-5px);
+}
